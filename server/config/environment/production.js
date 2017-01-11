@@ -19,6 +19,6 @@ module.exports = {
           process.env.MONGOHQ_URL ||
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://localhost/bibleapp'
+          'mongodb://nedflanders:Proverbs1423@ds129038.mlab.com:29038/bible-bot-db'
   }
 };
